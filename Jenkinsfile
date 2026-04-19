@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/YOUR-USERNAME/maven-jenkins-demo.git'
+                 git 'https://github.com/r2fneeraj/mjd.git'
             }
         }
 
